@@ -17,7 +17,6 @@ const command = {
 
         if (!/^\+?(0|[1-9]\d*)$/.exec(args[0])) pageOrCmd = "cmd";
 
-
         if (args.length === 0) {
             pageOrCmd = "page";
             page = "1";
@@ -61,8 +60,6 @@ const command = {
 
                     });
                 }
-
-
 
                 return msg.channel.send(embed).then(() => {
                     if (msg.deletable) return msg.delete();

@@ -26,7 +26,6 @@ fs.readdir(eventPath, (err, files) => {
 });
 
 
-
 const commandPath = path.join(__dirname, "commands");
 console.log(commandPath);
 fs.readdirSync(commandPath).forEach((dir) => {
