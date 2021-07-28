@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-template-v12",
+  "version": "1.0.0",
+  "description": "Discord Bot Template w/ Advanced Command Handler - V12",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRRemi/Discord-Bot-Template-V12.git"
+  },
+  "author": "VRKammie#4854 | github.com/VRRemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRRemi/Discord-Bot-Template-V12/issues"
+  },
+  "homepage": "https://github.com/VRRemi/Discord-Bot-Template-V12#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security"
+  }
+}
