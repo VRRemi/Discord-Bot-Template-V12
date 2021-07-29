@@ -3,7 +3,7 @@ const { capitalize, commandPaginate } = require("../../utils");
 
 const command = {
     aliases: ["h"],
-    description: "list of commands",
+    descirption: "list of commands",
     example: ["!help <page>", "!help <commandName>"],
     group: "miscellaneous",
     name: "help",
