@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const ms = require("ms");
 
 const command = {
-    descirption: "Get a pong ping",
+    description: "Get a pong ping",
     example: ["!ping"],
     group: "miscellaneous",
     name: "ping",
