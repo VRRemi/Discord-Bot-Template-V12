@@ -1,0 +1,7 @@
+# Make sure the id(s) are seperated by commas (,)
+owners: ["406211463125008386"]
+
+prefix: "!"
+
+# Token Example: NzU4Mzg1STh3MgS5DHCsHsVY.X2uSag.71AkvJZaVe3R-s5Ay3GatchEdGe
+token: "NzI4MjI1NzU3NTExNDE3OTE2.Xv3TFg.70NY9CqrhwR5kf44EOJm3VAwxcc"
