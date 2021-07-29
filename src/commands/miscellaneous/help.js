@@ -3,7 +3,7 @@ const { capitalize, commandPaginate } = require("../../utils");
 
 const command = {
     aliases: ["h"],
-    description: "list of commands",
+    description : "list of commands",
     example: ["!help <page>", "!help <commandName>"],
     group: "miscellaneous",
     name: "help",
@@ -54,7 +54,7 @@ const command = {
 
                         if (cmd.aliases !== undefined) aliases = `> **Aliases:** ${cmd.aliases.map((a) => `\`${a}\``)}`;
 
-                        embed.addField(capitalize(cmd.name), `${`> **Description:** ${cmd.descirption} \n`
+                        embed.addField(capitalize(cmd.name), `${`> **Description:** ${cmd.description} \n`
                             + `> **Group:** ${capitalize(cmd.group)}\n`
                             + `> **Example usage:** ${cmd.example.map((a) => `\`${a}\``).join(", ")}\n`}${aliases}`);
 
@@ -107,7 +107,7 @@ const command = {
                 embed.setTimestamp();
                 embed.setColor(colour);
                 embed.setDescription(
-                    `> **Description:** ${cmd.descirption}\n> \n`
+                    `> **Description:** ${cmd.description}\n> \n`
                     + `> **Group:** ${capitalize(cmd.group)}\n> \n`
                     + `> **Example Usage:** ${cmd.example.map((a) => `\`${a}\``).join(", ")}`
                     + `${aliases}`
