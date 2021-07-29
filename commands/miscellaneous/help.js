@@ -41,7 +41,7 @@ const command = {
                 finalPage -= 1;
 
                 const embed = new Discord.MessageEmbed()
-                    .setTitle(`${client.user?.tag}'s ${client.commands.size} Commands`)
+                    .setTitle(`${client.user?.tag}'s Commands`)
                     .setTimestamp()
                     .setColor(colour)
                     .setFooter(`Page ${page} of ${finalPage} pages`);
